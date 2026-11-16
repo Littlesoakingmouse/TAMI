@@ -1,0 +1,1701 @@
+{
+ "ppu": 96.0,
+ "rigs": [
+  {
+   "id": "npc_banhang1",
+   "kind": "suit",
+   "staff": true,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_banhang1_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5052
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_banhang1_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.625
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_banhang1_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5792
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_banhang1_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1797,
+      0.6293
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_banhang2",
+   "kind": "suit",
+   "staff": true,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_banhang2_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5104
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_banhang2_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.6302
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_banhang2_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5844
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_banhang2_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1797,
+      0.6345
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_banhang3",
+   "kind": "suit",
+   "staff": true,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_banhang3_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5104
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_banhang3_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.6302
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_banhang3_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5844
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_banhang3_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1797,
+      0.6345
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_banhang4",
+   "kind": "suit",
+   "staff": true,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_banhang4_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5521
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_banhang4_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.6719
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_banhang4_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.626
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_banhang4_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1784,
+      0.6761
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_banhang5",
+   "kind": "suit",
+   "staff": true,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_banhang5_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5156
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_banhang5_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.6354
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_banhang5_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5896
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_banhang5_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1797,
+      0.6397
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_ga1",
+   "kind": "suit",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_ga1_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5417
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_ga1_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.7656
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_ga1_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1771,
+      0.6677
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_ga1_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2552,
+      0.6176
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_ga2",
+   "kind": "suit",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_ga2_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5417
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_ga2_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.7656
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_ga2_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1784,
+      0.6677
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_ga2_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2552,
+      0.6176
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_ga3",
+   "kind": "suit",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_ga3_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.6458
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_ga3_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.7656
+     ],
+     "order": 2
+    },
+    {
+     "role": "top",
+     "file": "npc_ga3_top.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.7656
+     ],
+     "order": 3
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_ga3_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1771,
+      0.7719
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_ga3_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2552,
+      0.7218
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_ga4",
+   "kind": "skirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_ga4_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4583
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_ga4_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5781
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_ga4_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.1979,
+      0.5156
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_ga4_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1927,
+      0.5156
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_gau1",
+   "kind": "shirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_gau1_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4427
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_gau1_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5625
+     ],
+     "order": 2
+    },
+    {
+     "role": "leg_left",
+     "file": "npc_gau1_leg_left.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      -0.1094,
+      0.2635
+     ],
+     "order": 0
+    },
+    {
+     "role": "leg_right",
+     "file": "npc_gau1_leg_right.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      0.1224,
+      0.2421
+     ],
+     "order": 0
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_gau1_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5167
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_gau1_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.5529
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_gau2",
+   "kind": "suit",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_gau2_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5417
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_gau2_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.7604
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_gau2_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.6156
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_gau2_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.6519
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_gau3",
+   "kind": "shirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_gau3_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4427
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_gau3_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5625
+     ],
+     "order": 2
+    },
+    {
+     "role": "leg_left",
+     "file": "npc_gau3_leg_left.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      -0.1094,
+      0.2635
+     ],
+     "order": 0
+    },
+    {
+     "role": "leg_right",
+     "file": "npc_gau3_leg_right.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      0.1224,
+      0.2421
+     ],
+     "order": 0
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_gau3_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5167
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_gau3_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.5529
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_gau4",
+   "kind": "skirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_gau4_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4583
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_gau4_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5781
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_gau4_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1927,
+      0.5156
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_gau4_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.1927,
+      0.5156
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_lon1",
+   "kind": "shirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_lon1_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4453
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_lon1_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5651
+     ],
+     "order": 2
+    },
+    {
+     "role": "leg_left",
+     "file": "npc_lon1_leg_left.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      -0.1094,
+      0.2683
+     ],
+     "order": 0
+    },
+    {
+     "role": "leg_right",
+     "file": "npc_lon1_leg_right.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      0.1224,
+      0.2447
+     ],
+     "order": 0
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_lon1_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.5555
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_lon1_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5212
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_lon2",
+   "kind": "suit",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_lon2_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5417
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_lon2_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.7604
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_lon2_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.6519
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_lon2_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.6176
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_lon3",
+   "kind": "shirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_lon3_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4453
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_lon3_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5651
+     ],
+     "order": 2
+    },
+    {
+     "role": "leg_left",
+     "file": "npc_lon3_leg_left.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      -0.1094,
+      0.2683
+     ],
+     "order": 0
+    },
+    {
+     "role": "leg_right",
+     "file": "npc_lon3_leg_right.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      0.1224,
+      0.2447
+     ],
+     "order": 0
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_lon3_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.5555
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_lon3_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5212
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_lon4",
+   "kind": "skirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_lon4_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4583
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_lon4_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5781
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_lon4_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.1979,
+      0.5156
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_lon4_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1927,
+      0.5156
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_meo1",
+   "kind": "shirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_meo1_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4427
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_meo1_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5625
+     ],
+     "order": 2
+    },
+    {
+     "role": "leg_left",
+     "file": "npc_meo1_leg_left.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      -0.1094,
+      0.2635
+     ],
+     "order": 0
+    },
+    {
+     "role": "leg_right",
+     "file": "npc_meo1_leg_right.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      0.1224,
+      0.2443
+     ],
+     "order": 0
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_meo1_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.5509
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_meo1_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5167
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_meo2",
+   "kind": "suit",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_meo2_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5365
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_meo2_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.7604
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_meo2_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.6447
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_meo2_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.6104
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_meo3",
+   "kind": "shirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_meo3_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4427
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_meo3_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5625
+     ],
+     "order": 2
+    },
+    {
+     "role": "leg_left",
+     "file": "npc_meo3_leg_left.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      -0.1094,
+      0.2635
+     ],
+     "order": 0
+    },
+    {
+     "role": "leg_right",
+     "file": "npc_meo3_leg_right.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      0.1224,
+      0.2443
+     ],
+     "order": 0
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_meo3_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.5509
+     ],
+     "order": 1
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_meo3_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5167
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": "npc_meo4",
+   "kind": "skirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_meo4_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4583
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_meo4_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5781
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_meo4_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.1927,
+      0.5156
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_meo4_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1927,
+      0.5156
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_tho1",
+   "kind": "shirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_tho1_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4427
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_tho1_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5625
+     ],
+     "order": 2
+    },
+    {
+     "role": "leg_left",
+     "file": "npc_tho1_leg_left.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      -0.1094,
+      0.2635
+     ],
+     "order": 0
+    },
+    {
+     "role": "leg_right",
+     "file": "npc_tho1_leg_right.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      0.1224,
+      0.2421
+     ],
+     "order": 0
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_tho1_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5167
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_tho1_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.5529
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_tho2",
+   "kind": "suit",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_tho2_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.5365
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_tho2_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.7604
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_tho2_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.6104
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_tho2_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.6467
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_tho3",
+   "kind": "shirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_tho3_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4427
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_tho3_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5625
+     ],
+     "order": 2
+    },
+    {
+     "role": "leg_left",
+     "file": "npc_tho3_leg_left.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      -0.1094,
+      0.2635
+     ],
+     "order": 0
+    },
+    {
+     "role": "leg_right",
+     "file": "npc_tho3_leg_right.png",
+     "pivot": [
+      0.5,
+      0.92
+     ],
+     "pos": [
+      0.1224,
+      0.2421
+     ],
+     "order": 0
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_tho3_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.2565,
+      0.5167
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_tho3_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1641,
+      0.5529
+     ],
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": "npc_tho4",
+   "kind": "skirt",
+   "staff": false,
+   "parts": [
+    {
+     "role": "head",
+     "file": "npc_tho4_head.png",
+     "pivot": [
+      0.5,
+      0.0
+     ],
+     "pos": [
+      -0.0469,
+      0.4583
+     ],
+     "order": 5
+    },
+    {
+     "role": "body",
+     "file": "npc_tho4_body.png",
+     "pivot": [
+      0.5,
+      1.0
+     ],
+     "pos": [
+      0.0,
+      0.5781
+     ],
+     "order": 2
+    },
+    {
+     "role": "arm_left",
+     "file": "npc_tho4_arm_left.png",
+     "pivot": [
+      0.75,
+      0.88
+     ],
+     "pos": [
+      -0.1979,
+      0.5156
+     ],
+     "order": 4
+    },
+    {
+     "role": "arm_right",
+     "file": "npc_tho4_arm_right.png",
+     "pivot": [
+      0.25,
+      0.88
+     ],
+     "pos": [
+      0.1927,
+      0.5156
+     ],
+     "order": 1
+    }
+   ]
+  }
+ ]
+}

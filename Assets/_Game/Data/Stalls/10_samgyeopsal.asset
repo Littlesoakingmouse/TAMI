@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7930d78bef435b142915ee9b9d9c7d45, type: 3}
+  m_Name: 10_samgyeopsal
+  m_EditorClassIdentifier: Assembly-CSharp::Tami.StallData
+  id: samgyeopsal
+  displayName: Samgyeopsal
+  origin: 1
+  segment: 4
+  unlockCost: 100000000
+  baseIncome: 1000000
+  baseServiceTime: 4
+  products:
+  - Samgyeopsal
+  - Galbi
+  - "Set n\u01B0\u1EDBng th\u1EADp c\u1EA9m"
+  dishSprites:
+  - {fileID: 21300000, guid: 35922558d185a984c97288ff0de8c864, type: 3}
+  - {fileID: 21300000, guid: cd1cdd4ad0cdea84dacd23e00c536d42, type: 3}
+  - {fileID: 21300000, guid: 5da1686cf2091724c84ef54de605c114, type: 3}
+  levelSprites:
+  - {fileID: 21300000, guid: 818ddbc5b88711f419eb8c3c8be1e762, type: 3}
+  - {fileID: 21300000, guid: 0a9ae9fe30c50e34e87cde6b77fc5553, type: 3}
+  - {fileID: 21300000, guid: fcee29f08b6603b4d915a5d6d6ee9ff3, type: 3}
+  - {fileID: 21300000, guid: ae98f1557c7a3ff47abec6676e911cd6, type: 3}
+  counterTopY: 0.927358
+  dishSpacing: 0.95
+  dishScale: 0.9
+  staffRig: npc_banhang5
+  introSpeaker: minji
+  introLine: "Samgyeopsal l\xE0 th\u1ECBt ba ch\u1EC9 n\u01B0\u1EDBng, \u0103n k\xE8m
+    rau cu\u1ED1n v\xE0 kimchi."
+  customerLines:
+  - "Cu\u1ED1n rau ngon tuy\u1EC7t."
+  - "Th\xEAm kimchi n\u1EEFa nh\xE9!"
+  barkerLines: []

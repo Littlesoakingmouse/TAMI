@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7930d78bef435b142915ee9b9d9c7d45, type: 3}
+  m_Name: 07_ca_phe
+  m_EditorClassIdentifier: Assembly-CSharp::Tami.StallData
+  id: ca_phe
+  displayName: "C\xE0 ph\xEA"
+  origin: 0
+  segment: 3
+  unlockCost: 1000000
+  baseIncome: 20000
+  baseServiceTime: 3
+  products:
+  - "C\xE0 ph\xEA phin"
+  - "C\xE0 ph\xEA s\u1EEFa \u0111\xE1"
+  - "C\xE0 ph\xEA tr\u1EE9ng"
+  dishSprites:
+  - {fileID: 21300000, guid: 8048a83f8e62a9745a76b7085dbd17c0, type: 3}
+  - {fileID: 21300000, guid: 5c2cd3bc39bdf9e4c968e5ee3968b81e, type: 3}
+  - {fileID: 21300000, guid: 8196b0a1a93fd1e4cb331cd23ed55034, type: 3}
+  levelSprites:
+  - {fileID: 21300000, guid: d3289148d741db34c9f4a665fd4bc98a, type: 3}
+  - {fileID: 21300000, guid: a8a79904d81044843b9577a39b75c52b, type: 3}
+  - {fileID: 21300000, guid: 4c3573b6bcf882d49b5e2b266d414f7d, type: 3}
+  - {fileID: 21300000, guid: 7c0b87011d599944585d13a604b1aed0, type: 3}
+  counterTopY: 0.95244145
+  dishSpacing: 0.95
+  dishScale: 0.9
+  staffRig: npc_banhang2
+  introSpeaker: mayor
+  introLine: "C\xE0 ph\xEA s\u1EEFa \u0111\xE1 pha phin l\xE0 th\u1EE9c u\u1ED1ng
+    quen thu\u1ED9c c\u1EE7a ng\u01B0\u1EDDi Vi\u1EC7t."
+  customerLines:
+  - "C\xE0 ph\xEA phin \u0111\u1EADm \u0111\xE0."
+  - "T\u1EC9nh c\u1EA3 ng\u01B0\u1EDDi!"
+  barkerLines: []

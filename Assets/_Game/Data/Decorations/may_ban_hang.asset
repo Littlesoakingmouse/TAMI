@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9696d441ff2791e48bc51fa9b450567a, type: 3}
+  m_Name: may_ban_hang
+  m_EditorClassIdentifier: Assembly-CSharp::Tami.DecorationData
+  id: may_ban_hang
+  displayName: "M\xE1y b\xE1n h\xE0ng t\u1EF1 \u0111\u1ED9ng"
+  origin: 1
+  coinCost: 1000000
+  gemCost: 0
+  attraction: 5
+  sprite: {fileID: 21300000, guid: 06637dca84534026ac4f36ed5c00c6ec, type: 3}

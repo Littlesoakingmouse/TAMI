@@ -1,0 +1,610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d245c1698130f8a438687a6f071b9656, type: 3}
+  m_Name: GameArt
+  m_EditorClassIdentifier: Assembly-CSharp::Tami.GameArt
+  spriteMaterial: {fileID: 2100000, guid: 2659d98111c621f4c89609f55bf12fc3, type: 2}
+  font: {fileID: 12800000, guid: 69a47b227b0838e4db6180e3effa9cd6, type: 3}
+  road: {fileID: 21300000, guid: c75e46191ed14081b3752f2761505896, type: 3}
+  ground: {fileID: 21300000, guid: 75a2688059b8425fb5cf6c6182403dd1, type: 3}
+  grass: {fileID: 21300000, guid: 6580cff1aa864151917a02f6b0a276c5, type: 3}
+  sky: {fileID: 21300000, guid: bd8934cc11773d443bf79b9b0466d1f0, type: 3}
+  backTrees:
+  - {fileID: 21300000, guid: 0b2e55e0996720244825914548d2a496, type: 3}
+  - {fileID: 21300000, guid: 9a2adbc0a9f9342428577dc11d02a9e5, type: 3}
+  - {fileID: 21300000, guid: db516cb1ae5f82a49adb2bfdf1b08930, type: 3}
+  - {fileID: 21300000, guid: 30c9d15e1c6a90b438a2cb0356c9a41e, type: 3}
+  - {fileID: 21300000, guid: b64647f105f69b548a39e3e9d2418c0a, type: 3}
+  slotEmpty: {fileID: 21300000, guid: 92407e0b8e33dbf448baa7b093e23904, type: 3}
+  gate: {fileID: 21300000, guid: 57f6d4dffedb48fea9bed73cf507da0e, type: 3}
+  canopy: {fileID: 21300000, guid: 627f75fa48de4e2b9e6df0a000095c29, type: 3}
+  expandSign: {fileID: 21300000, guid: f6df9d333a5c4a8ca8e9fce55ccdffe1, type: 3}
+  stage: {fileID: 21300000, guid: c2436319bb7eadc4192232c4b2107e2a, type: 3}
+  npcRigs:
+  - id: npc_ga1
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: b7aa2bd0e03f4fe4493a1e411a58020e, type: 3}
+      position: {x: -0.0469, y: 0.5417}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 9ad2b8221b7eb9942b00b7c43af2b816, type: 3}
+      position: {x: 0, y: 0.7656}
+      order: 2
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 94f36265eef7fec4e978115418ebaded, type: 3}
+      position: {x: 0.1771, y: 0.6677}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 1f1741c011bc90f4985ca3325e4ae995, type: 3}
+      position: {x: -0.2552, y: 0.6176}
+      order: 4
+  - id: npc_ga2
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 841669b4094a0c24db832f9abfd02f57, type: 3}
+      position: {x: -0.0469, y: 0.5417}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 26f1b194251db4841a896168b788c00c, type: 3}
+      position: {x: 0, y: 0.7656}
+      order: 2
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: ad661b72e21aa4542b99e38201365ecc, type: 3}
+      position: {x: 0.1784, y: 0.6677}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 62a2dffe0ab75bb4cab284ab313795a0, type: 3}
+      position: {x: -0.2552, y: 0.6176}
+      order: 4
+  - id: npc_ga3
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: b844d520ad2461e4da636c3bfb6f3812, type: 3}
+      position: {x: -0.0469, y: 0.6458}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 8a93e760c161f9745947780e72c76b08, type: 3}
+      position: {x: 0, y: 0.7656}
+      order: 2
+    - role: top
+      sprite: {fileID: 21300000, guid: 218260cff2a6c0c4e9d2e16d230346c9, type: 3}
+      position: {x: 0, y: 0.7656}
+      order: 3
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 01ccd85a86ca77041a52d5ba60b8c15c, type: 3}
+      position: {x: 0.1771, y: 0.7719}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: eca5ab5f8cb093547ade846b97484573, type: 3}
+      position: {x: -0.2552, y: 0.7218}
+      order: 4
+  - id: npc_ga4
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 3c7f74a7351f79143bb703f00f909d8c, type: 3}
+      position: {x: -0.0469, y: 0.4583}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 3139a54100dfc3b419f73f84d4d9ae3c, type: 3}
+      position: {x: 0, y: 0.5781}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 808cfdae97b394e43b5a00896d1e0df1, type: 3}
+      position: {x: -0.1979, y: 0.5156}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 6a3b1d3f84e355b45be3c7b202b9af26, type: 3}
+      position: {x: 0.1927, y: 0.5156}
+      order: 1
+  - id: npc_gau1
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 4c2d396aa8c3553418d4b0d2beb893da, type: 3}
+      position: {x: -0.0469, y: 0.4427}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 25494b892bd692d468e77b540de6e5c4, type: 3}
+      position: {x: 0, y: 0.5625}
+      order: 2
+    - role: leg_left
+      sprite: {fileID: 21300000, guid: fcd767a6b0055c84d941beeee45980fb, type: 3}
+      position: {x: -0.1094, y: 0.2635}
+      order: 0
+    - role: leg_right
+      sprite: {fileID: 21300000, guid: e69d631edc136364ea2b11e151543e98, type: 3}
+      position: {x: 0.1224, y: 0.2421}
+      order: 0
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 4786482d4beef1148b7f43b8dec630b2, type: 3}
+      position: {x: -0.2565, y: 0.5167}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: a2d5eaa86ec387147aeb4219856415df, type: 3}
+      position: {x: 0.1641, y: 0.5529}
+      order: 1
+  - id: npc_gau2
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 28027e0961d642d4ab9d4a87d7bab7e4, type: 3}
+      position: {x: -0.0469, y: 0.5417}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: bb4e501331cc4734da480c1738827857, type: 3}
+      position: {x: 0, y: 0.7604}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 02693aba1f508614599ce2378737aafb, type: 3}
+      position: {x: -0.2565, y: 0.6156}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 8c963fa436ebd264f9da5adad6eae6ec, type: 3}
+      position: {x: 0.1641, y: 0.6519}
+      order: 1
+  - id: npc_gau3
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 6c780c75328e2274eb98f7b8042348e7, type: 3}
+      position: {x: -0.0469, y: 0.4427}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 61365e2bb7c1c6947a8c8db5d9037240, type: 3}
+      position: {x: 0, y: 0.5625}
+      order: 2
+    - role: leg_left
+      sprite: {fileID: 21300000, guid: b04a17ed3cb7f7843a5e190303691c9f, type: 3}
+      position: {x: -0.1094, y: 0.2635}
+      order: 0
+    - role: leg_right
+      sprite: {fileID: 21300000, guid: f891a37106c5e584aaf5ade8446293c2, type: 3}
+      position: {x: 0.1224, y: 0.2421}
+      order: 0
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 37c0b9eea1e396446ac2e84f9c4ba205, type: 3}
+      position: {x: -0.2565, y: 0.5167}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 348abc0a6608a2e4e9aa2564d2e34831, type: 3}
+      position: {x: 0.1641, y: 0.5529}
+      order: 1
+  - id: npc_gau4
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 44049c15381abf14592e958ecdf47059, type: 3}
+      position: {x: -0.0469, y: 0.4583}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 1f3d255f245706347adb5ee62fae4f41, type: 3}
+      position: {x: 0, y: 0.5781}
+      order: 2
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 47446d60636be2c4ea3f1dfa40eeb134, type: 3}
+      position: {x: 0.1927, y: 0.5156}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 3de674c90fd88d84ca9d981b3312946b, type: 3}
+      position: {x: -0.1927, y: 0.5156}
+      order: 4
+  - id: npc_lon1
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: baf054925a168d44b9dc1de3e5effb02, type: 3}
+      position: {x: -0.0469, y: 0.4453}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 911225d3ece6b2941a9240bd19f83b91, type: 3}
+      position: {x: 0, y: 0.5651}
+      order: 2
+    - role: leg_left
+      sprite: {fileID: 21300000, guid: e78c7ccac28d2da429ffd078c1f673f1, type: 3}
+      position: {x: -0.1094, y: 0.2683}
+      order: 0
+    - role: leg_right
+      sprite: {fileID: 21300000, guid: abebcb052d8749647a7275d6f1389fd0, type: 3}
+      position: {x: 0.1224, y: 0.2447}
+      order: 0
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 9943c9aa4e7615140b7310260cd2fff6, type: 3}
+      position: {x: 0.1641, y: 0.5555}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 85b8726eb5e05c949a89e81112d2c668, type: 3}
+      position: {x: -0.2565, y: 0.5212}
+      order: 4
+  - id: npc_lon2
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 2c2974502e98bf44c87479ed0f474cda, type: 3}
+      position: {x: -0.0469, y: 0.5417}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: ff9ce452742d6f64490eddcee2918676, type: 3}
+      position: {x: 0, y: 0.7604}
+      order: 2
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 0a9f4e973bb96ed428ff04c9d12d2c79, type: 3}
+      position: {x: 0.1641, y: 0.6519}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: e364869effeba9543a660f5d307e3966, type: 3}
+      position: {x: -0.2565, y: 0.6176}
+      order: 4
+  - id: npc_lon3
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 3c8f13eae9761154b935a2843d2092e9, type: 3}
+      position: {x: -0.0469, y: 0.4453}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: c883579c9a19893489ca4a5f3e977066, type: 3}
+      position: {x: 0, y: 0.5651}
+      order: 2
+    - role: leg_left
+      sprite: {fileID: 21300000, guid: c34f4b360720113499a66300e83b5473, type: 3}
+      position: {x: -0.1094, y: 0.2683}
+      order: 0
+    - role: leg_right
+      sprite: {fileID: 21300000, guid: 8c6ee1f8c8424004a908d0092c3f71b9, type: 3}
+      position: {x: 0.1224, y: 0.2447}
+      order: 0
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: cb977c6074f6e0941b28b9bf61768c34, type: 3}
+      position: {x: 0.1641, y: 0.5555}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: fa18d3673734c57488e4f7853333dd8e, type: 3}
+      position: {x: -0.2565, y: 0.5212}
+      order: 4
+  - id: npc_lon4
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 40e595c727ad9ed4fa1010783b40cbca, type: 3}
+      position: {x: -0.0469, y: 0.4583}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 0750854f6f11e1742b677d347f8b2401, type: 3}
+      position: {x: 0, y: 0.5781}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 24154c214bf36d247bbe4ed4159fa62f, type: 3}
+      position: {x: -0.1979, y: 0.5156}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 52f3f860423f6154f8344e3087ddfe54, type: 3}
+      position: {x: 0.1927, y: 0.5156}
+      order: 1
+  - id: npc_meo1
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 08bc8c22b01bedc4e8532fb388ca768d, type: 3}
+      position: {x: -0.0469, y: 0.4427}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: da9d5c8329d30624c955e23c21a2e6db, type: 3}
+      position: {x: 0, y: 0.5625}
+      order: 2
+    - role: leg_left
+      sprite: {fileID: 21300000, guid: 8804932c3f7f53f4a9160b52e0db549d, type: 3}
+      position: {x: -0.1094, y: 0.2635}
+      order: 0
+    - role: leg_right
+      sprite: {fileID: 21300000, guid: a9ce4e536db37764eaa446386a704d0c, type: 3}
+      position: {x: 0.1224, y: 0.2443}
+      order: 0
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 745aa478900fccb4fbc6600a4727c6fa, type: 3}
+      position: {x: 0.1641, y: 0.5509}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 535329356d76fa44ea9bbdadb91a5b51, type: 3}
+      position: {x: -0.2565, y: 0.5167}
+      order: 4
+  - id: npc_meo2
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 18e57b69fca4b8749a5266149e9954b9, type: 3}
+      position: {x: -0.0469, y: 0.5365}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: f9ad8cf3054586c4f8666f96152174ee, type: 3}
+      position: {x: 0, y: 0.7604}
+      order: 2
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 1db81fd151b9dfa449da0378f03bbbbf, type: 3}
+      position: {x: 0.1641, y: 0.6447}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 65984c505c7cb124db0a1fce08e5b605, type: 3}
+      position: {x: -0.2565, y: 0.6104}
+      order: 4
+  - id: npc_meo3
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: a304d71b59e508c48a663f03657a992d, type: 3}
+      position: {x: -0.0469, y: 0.4427}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 1f7a05fd4e73fc44a98edbde3b2b5499, type: 3}
+      position: {x: 0, y: 0.5625}
+      order: 2
+    - role: leg_left
+      sprite: {fileID: 21300000, guid: 2716310cf36900c49a84c2f7a3fb857d, type: 3}
+      position: {x: -0.1094, y: 0.2635}
+      order: 0
+    - role: leg_right
+      sprite: {fileID: 21300000, guid: 208d09d90aa874e488b636fe611c1894, type: 3}
+      position: {x: 0.1224, y: 0.2443}
+      order: 0
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 98fda5eb5955ba64c9101a1169cae191, type: 3}
+      position: {x: 0.1641, y: 0.5509}
+      order: 1
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: e4131b5d909929843932088fa060ca15, type: 3}
+      position: {x: -0.2565, y: 0.5167}
+      order: 4
+  - id: npc_meo4
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: c689ea78c4c7e764f9cdbe00189d48b6, type: 3}
+      position: {x: -0.0469, y: 0.4583}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 63d076ad7db51494ca175980d6aee6de, type: 3}
+      position: {x: 0, y: 0.5781}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: c9192e91160295d49872626e0430acc1, type: 3}
+      position: {x: -0.1927, y: 0.5156}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 1ec1e95e6b8a98843a89aa25c33eba51, type: 3}
+      position: {x: 0.1927, y: 0.5156}
+      order: 1
+  - id: npc_tho1
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 4a1d951b77214aa4883cbd2b542cb1e4, type: 3}
+      position: {x: -0.0469, y: 0.4427}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 1377e141d7a27604da5c5e9fbc1c9dfe, type: 3}
+      position: {x: 0, y: 0.5625}
+      order: 2
+    - role: leg_left
+      sprite: {fileID: 21300000, guid: 51a3720d6528ba546ad548fdd346f9fe, type: 3}
+      position: {x: -0.1094, y: 0.2635}
+      order: 0
+    - role: leg_right
+      sprite: {fileID: 21300000, guid: b4105892dfae25340ae5d0c8c4a65fc8, type: 3}
+      position: {x: 0.1224, y: 0.2421}
+      order: 0
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 3c81a5d42f7bfa646a73d8057d79c994, type: 3}
+      position: {x: -0.2565, y: 0.5167}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 73bbf187c7d603e449974243c03c5c0c, type: 3}
+      position: {x: 0.1641, y: 0.5529}
+      order: 1
+  - id: npc_tho2
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: f3768e733b397ed40bf5570efc84638d, type: 3}
+      position: {x: -0.0469, y: 0.5365}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 062fb8718e7ee0546968bedc901cc00f, type: 3}
+      position: {x: 0, y: 0.7604}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: a2d1aff152e83c24a952f7ef51bf75a0, type: 3}
+      position: {x: -0.2565, y: 0.6104}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 70d6acaa7ea93f34bb3ff7fa2cca2854, type: 3}
+      position: {x: 0.1641, y: 0.6467}
+      order: 1
+  - id: npc_tho3
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 993d7602e98782546928547b79b97c8e, type: 3}
+      position: {x: -0.0469, y: 0.4427}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 2404746e8cee72246b7a7932cfbd65ce, type: 3}
+      position: {x: 0, y: 0.5625}
+      order: 2
+    - role: leg_left
+      sprite: {fileID: 21300000, guid: f24025707dc9de7469add2f8f61ec4ee, type: 3}
+      position: {x: -0.1094, y: 0.2635}
+      order: 0
+    - role: leg_right
+      sprite: {fileID: 21300000, guid: d2b4a3d24cdec6b4093ef2a43fa1d59e, type: 3}
+      position: {x: 0.1224, y: 0.2421}
+      order: 0
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 6ac8b9e571d2473499b82a1b6e0f0ce4, type: 3}
+      position: {x: -0.2565, y: 0.5167}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: d2c91db7fcafbbb4a8c964eda5aa7ada, type: 3}
+      position: {x: 0.1641, y: 0.5529}
+      order: 1
+  - id: npc_tho4
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: c8d3e9c77b405cf459e373a271c7c4e3, type: 3}
+      position: {x: -0.0469, y: 0.4583}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 449f7ec30141c2d4c8334a5a299f4e2d, type: 3}
+      position: {x: 0, y: 0.5781}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 84800c9a2fa07874d87d70aa31e9fc2a, type: 3}
+      position: {x: -0.1979, y: 0.5156}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 5a68f9b7dcd103f4291d8ffa20810e06, type: 3}
+      position: {x: 0.1927, y: 0.5156}
+      order: 1
+  staffRigs:
+  - id: npc_banhang1
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: d550b5f2ca9563d43b720747b20ab030, type: 3}
+      position: {x: -0.0469, y: 0.5052}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: fcf910ed6914f6845be71bb400d7324e, type: 3}
+      position: {x: 0, y: 0.625}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: c5fe43a78dbb2494986b2624ecc16553, type: 3}
+      position: {x: -0.2565, y: 0.5792}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 43119b90f3aa4ce469d7a62c56da1705, type: 3}
+      position: {x: 0.1797, y: 0.6293}
+      order: 1
+  - id: npc_banhang2
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 9ad89b832c5a6ed449433104263de6f2, type: 3}
+      position: {x: -0.0469, y: 0.5104}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 67a917d7ebe946548bb14c75ff5dff0c, type: 3}
+      position: {x: 0, y: 0.6302}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: edb0e273cfcbf8a409406cd9bdb72e15, type: 3}
+      position: {x: -0.2565, y: 0.5844}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: 1c0d0d7c746fd1d42b2b88bce0d9af2f, type: 3}
+      position: {x: 0.1797, y: 0.6345}
+      order: 1
+  - id: npc_banhang3
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 87d9f06c5c4671b47ac6c284f799f30e, type: 3}
+      position: {x: -0.0469, y: 0.5104}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: adfebe43e8d46a24c84badf6211b2e51, type: 3}
+      position: {x: 0, y: 0.6302}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: c18650cceaf8cf84da907b2eb75dfc33, type: 3}
+      position: {x: -0.2565, y: 0.5844}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: d0f56da751b18d34184374911fbe75ad, type: 3}
+      position: {x: 0.1797, y: 0.6345}
+      order: 1
+  - id: npc_banhang4
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: 87e5285829077ae4eb3bc35f83760ef7, type: 3}
+      position: {x: -0.0469, y: 0.5521}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: cab7db7cecbcab248a4a0f7db2358161, type: 3}
+      position: {x: 0, y: 0.6719}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: 40364d68c341b894b8fe4cd2e5477765, type: 3}
+      position: {x: -0.2565, y: 0.626}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: fc6714d5d7990c34eaa0ae07aa7d2127, type: 3}
+      position: {x: 0.1784, y: 0.6761}
+      order: 1
+  - id: npc_banhang5
+    parts:
+    - role: head
+      sprite: {fileID: 21300000, guid: da4bc529e4539b944978a1f5cdd14347, type: 3}
+      position: {x: -0.0469, y: 0.5156}
+      order: 5
+    - role: body
+      sprite: {fileID: 21300000, guid: 44f3c6195af4b9d459d745c90891f03f, type: 3}
+      position: {x: 0, y: 0.6354}
+      order: 2
+    - role: arm_left
+      sprite: {fileID: 21300000, guid: ebf2e6555381cca43b716e4fd9cae865, type: 3}
+      position: {x: -0.2565, y: 0.5896}
+      order: 4
+    - role: arm_right
+      sprite: {fileID: 21300000, guid: ae6b0167215e18b4fbcd601244518066, type: 3}
+      position: {x: 0.1797, y: 0.6397}
+      order: 1
+  npcBodies:
+  - {fileID: 21300000, guid: e9c7bac36d1feb244a2093a4aee823fc, type: 3}
+  - {fileID: 21300000, guid: 0fd5beff1daac154db0aa73a14f127f0, type: 3}
+  - {fileID: 21300000, guid: 2fbd67e518cde5744b3086c65ab15152, type: 3}
+  - {fileID: 21300000, guid: fdf370fd9fd69c94aa09539dd5f7cef2, type: 3}
+  - {fileID: 21300000, guid: 728b52c888e61f242bb5a982142ea69a, type: 3}
+  - {fileID: 21300000, guid: 22632436c7e5ab941b8f51e54e24c6e4, type: 3}
+  manager: {fileID: 21300000, guid: d1a3ccce6b60cfc4c9026f6a539f4538, type: 3}
+  playerHead: {fileID: 21300000, guid: 2961f06abcb82bf44ad586c041ac82c7, type: 3}
+  playerBody: {fileID: 21300000, guid: 14c99372fccb6db4bafc9efaa7bd8749, type: 3}
+  playerArmLeft: {fileID: 21300000, guid: 1bf9c1eb3d8b2c949802641fc60af0ab, type: 3}
+  playerArmRight: {fileID: 21300000, guid: 48c30727ca6edf64689d6b6f27943506, type: 3}
+  playerLegLeft: {fileID: 21300000, guid: a1c7b6f90e050e848b58902ac19a7b0e, type: 3}
+  playerLegRight: {fileID: 21300000, guid: 50ef3b7db82735d4bb5da667a5b4dbae, type: 3}
+  playerRing: {fileID: 21300000, guid: 83956f40e791ed44c871c202e6c2b62a, type: 3}
+  portraitMayor: {fileID: 21300000, guid: 3e7d2b34c93ed9b4591300c6ea050625, type: 3}
+  portraitMinji: {fileID: 21300000, guid: 2662ae56e40bc314ca70c59df710ade4, type: 3}
+  portraitOngBa: {fileID: 21300000, guid: e05fe93f3a62ef045ac77996faaf8d4f, type: 3}
+  portraitPlayer: {fileID: 21300000, guid: 2961f06abcb82bf44ad586c041ac82c7, type: 3}
+  coin: {fileID: 21300000, guid: 43332c094fc24edf8a2373a2b09b6bb8, type: 3}
+  gem: {fileID: 21300000, guid: 91236fbc5a0a40329cba9281741d3ae5, type: 3}
+  moneyBag: {fileID: 21300000, guid: 4019eea3382b467c96a0aba6545e6606, type: 3}
+  moneyBagFull: {fileID: 21300000, guid: e652c5411972406296bc5569941eacd8, type: 3}
+  bubbleSad: {fileID: 21300000, guid: 9d431513ff00d7d4ca2ace7a1235ac2f, type: 3}
+  bubbleBuy: {fileID: 21300000, guid: 00bcb972f32f76b4fa9e846d02a83b72, type: 3}
+  arrow: {fileID: 21300000, guid: c5f35dbb19159a840bb6d1348eaf7349, type: 3}
+  iconTrophy: {fileID: 21300000, guid: 2260d4cc36984877920bcc891c48e0a8, type: 3}
+  iconSettings: {fileID: 21300000, guid: c73550cf05e344b89fefe087fb59ccb7, type: 3}
+  iconGift: {fileID: 21300000, guid: 7c6336fd8c1f71146a8040cf8eaefe9e, type: 3}
+  tabStreet: {fileID: 21300000, guid: f9c24ff763f0e2d47b6111552786e63b, type: 3}
+  tabManager: {fileID: 21300000, guid: 73b7fe21478f43eb84c73f35d3f98df1, type: 3}
+  tabDecor: {fileID: 21300000, guid: a8213505cdc94185a61d0d47707501e6, type: 3}
+  tabShop: {fileID: 21300000, guid: f1d4334fa17249a0b30ae3012f2cc03b, type: 3}
+  white: {fileID: 21300000, guid: 1e82f89c10855a542a7b68e7f6993d0c, type: 3}
+  dialogBox: {fileID: 21300000, guid: 3338a939fab46ab49a73b512e64769d3, type: 3}
+  uiPanel: {fileID: 21300000, guid: 859b6980e41949e4a061bc464809ade4, type: 3}
+  uiButton: {fileID: 21300000, guid: 5b5a9ca48c1f440989c7eab9c702c5de, type: 3}
+  uiRow: {fileID: 21300000, guid: 19ba5214bbc5455089af704e21054ab4, type: 3}
+  uiKnob: {fileID: 21300000, guid: c04f69c3eab54a2b9d0242c09d3c0e7f, type: 3}
+  frameName: {fileID: 21300000, guid: 9ee1a57271cc4d8cb55e35298783b5cd, type: 3}
+  frameNotice: {fileID: 21300000, guid: 6b179a464e024f35abff4c50ae13f03f, type: 3}
+  diningTableVN: {fileID: 21300000, guid: a79ac2e3518e4543bc1da90ac6b1c584, type: 3}
+  diningChairVN: {fileID: 21300000, guid: 08e7aecb44c04d349e642b2a9fdebee5, type: 3}
+  diningTableKR: {fileID: 21300000, guid: 0ada4262647148bda3e67d681c8434c4, type: 3}
+  diningChairKR: {fileID: 21300000, guid: 1dc4e0df20534a88966662817726550b, type: 3}
+  diningTableLow: {fileID: 21300000, guid: 604ff079e36945d8b7c0c7fe9fb68449, type: 3}
+  stoolRed: {fileID: 21300000, guid: 63cf4e1c6a9a444aa402100d7cd0d2df, type: 3}
+  stoolBlue: {fileID: 21300000, guid: f5fac63e67b445f0ba7d50f9ac08145b, type: 3}
+  fence: {fileID: 21300000, guid: eb49633e2f3949cf9c6bde9bb4b1d523, type: 3}
+  fencePost: {fileID: 21300000, guid: bef236e090a94e9bb7137f4d162862ff, type: 3}
+  folkDaCau: {fileID: 21300000, guid: 374fa397688a4383b7b6df188422a210, type: 3}
+  folkTuho: {fileID: 21300000, guid: 22624f996af5425b9e46faaf12a34707, type: 3}
+  musicTracks:
+  - {fileID: 8300000, guid: 83a01ef291ee4b94a7096ce1537b0f2b, type: 3}
+  - {fileID: 8300000, guid: e57d0387234a4336ad000b4713ba2b5e, type: 3}
+  - {fileID: 8300000, guid: 4e1a5775664c411b95f370ac78d1e227, type: 3}
+  - {fileID: 8300000, guid: 7adf20d40f4144ae819f01c0bdc3a519, type: 3}
+  speechBubble: {fileID: 21300000, guid: 1b30a86a05134207a15669c0b0622d5b, type: 3}
+  speechTail: {fileID: 21300000, guid: 7767506086f7487a9387bbd776e31cc6, type: 3}

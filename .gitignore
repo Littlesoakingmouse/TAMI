@@ -1,0 +1,66 @@
+# ---------- Unity: thư mục Unity tự sinh lại ----------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Bản build (exe, apk, aab)
+/[Bb]uild/
+/[Bb]uilds/
+*.apk
+*.aab
+*.unitypackage
+
+# Ảnh chụp màn hình khi chạy thử
+/Captures/
+
+# Asset Store tools
+/[Aa]ssets/AssetStoreTools*
+
+# Gradle của Android
+.gradle/
+
+# ---------- File của IDE (Unity tự tạo lại) ----------
+.vs/
+.vscode/
+.idea/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Meta của các file bị bỏ qua ở trên
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crashlytics
+crashlytics-build.properties
+
+# Addressables / build cache
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---------- Hệ điều hành và công cụ ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.utmp/
+__pycache__/
+*.pyc

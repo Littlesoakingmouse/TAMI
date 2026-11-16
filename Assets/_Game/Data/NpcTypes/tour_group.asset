@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83cf8a002027a0843b35a93a2fa84d07, type: 3}
+  m_Name: tour_group
+  m_EditorClassIdentifier: Assembly-CSharp::Tami.NpcTypeData
+  id: tour_group
+  displayName: "\u0110o\xE0n du l\u1ECBch"
+  kind: 1
+  spawnWeight: 5
+  minStalls: 1
+  maxStalls: 3
+  payMultiplier: 1
+  groupSizeMin: 4
+  groupSizeMax: 6
+  unlockSegment: 2
+  marker: {fileID: 21300000, guid: cf1f144002fef6b4da3be4f9897c7f19, type: 3}

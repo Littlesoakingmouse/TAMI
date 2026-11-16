@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83cf8a002027a0843b35a93a2fa84d07, type: 3}
+  m_Name: big_spender
+  m_EditorClassIdentifier: Assembly-CSharp::Tami.NpcTypeData
+  id: big_spender
+  displayName: "Kh\xE1ch s\u1ED9p"
+  kind: 3
+  spawnWeight: 4
+  minStalls: 1
+  maxStalls: 2
+  payMultiplier: 5
+  groupSizeMin: 1
+  groupSizeMax: 1
+  unlockSegment: 2
+  marker: {fileID: 21300000, guid: e08e9c16647ac724e98633b893e1a9b4, type: 3}

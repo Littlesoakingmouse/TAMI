@@ -1,0 +1,448 @@
+{
+ "items": [
+  {
+   "ppu": 109.18114143920594,
+   "counterTop": 1.0672179732313576,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "banh_chung_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_chung_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_chung_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_chung_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "banh_chung"
+  },
+  {
+   "ppu": 109.18114143920594,
+   "counterTop": 1.04051638530288,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "kimbap_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "kimbap_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "kimbap_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "kimbap_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "kimbap"
+  },
+  {
+   "ppu": 109.18114143920596,
+   "counterTop": 1.0415084388185654,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "tteokbokki_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "tteokbokki_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "tteokbokki_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "tteokbokki_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "tteokbokki"
+  },
+  {
+   "ppu": 109.18114143920594,
+   "counterTop": 0.8471324422843257,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "banh_mi_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_mi_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_mi_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_mi_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "banh_mi"
+  },
+  {
+   "ppu": 109.18114143920596,
+   "counterTop": 0.9417284866468842,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "naengmyeon_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "naengmyeon_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "naengmyeon_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "naengmyeon_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "naengmyeon"
+  },
+  {
+   "ppu": 109.18114143920594,
+   "counterTop": 0.9524414478353442,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "ca_phe_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "ca_phe_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "ca_phe_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "ca_phe_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "ca_phe"
+  },
+  {
+   "ppu": 109.18114143920594,
+   "counterTop": 0.9436797153024912,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "bun_cha_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "bun_cha_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "bun_cha_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "bun_cha_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "bun_cha"
+  },
+  {
+   "ppu": 109.18114143920596,
+   "counterTop": 1.0098090145148968,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "pho_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "pho_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "pho_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "pho_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "pho"
+  },
+  {
+   "ppu": 109.18114143920596,
+   "counterTop": 0.9273579545454546,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "samgyeopsal_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "samgyeopsal_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "samgyeopsal_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "samgyeopsal_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "samgyeopsal"
+  },
+  {
+   "ppu": 109.18114143920596,
+   "counterTop": 0.8785918513223732,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "bingsu_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "bingsu_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "bingsu_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "bingsu_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "bingsu"
+  },
+  {
+   "ppu": 109.18114143920594,
+   "counterTop": 0.934280523255814,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "banh_xeo_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_xeo_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_xeo_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "banh_xeo_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "banh_xeo"
+  },
+  {
+   "ppu": 109.18114143920596,
+   "counterTop": 0.7833248081841433,
+   "dishSpacing": 0.95,
+   "dishScale": 0.9,
+   "levels": [
+    {
+     "file": "pajeon_1.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "pajeon_2.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "pajeon_3.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    },
+    {
+     "file": "pajeon_4.png",
+     "pivot": [
+      0.5,
+      0.0
+     ]
+    }
+   ],
+   "id": "pajeon"
+  }
+ ]
+}

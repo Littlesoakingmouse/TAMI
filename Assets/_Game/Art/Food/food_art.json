@@ -1,0 +1,208 @@
+{
+ "items": [
+  {
+   "dishes": [
+    {
+     "file": "banh_chung_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "banh_chung_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "banh_chung_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "banh_chung"
+  },
+  {
+   "dishes": [
+    {
+     "file": "tteokbokki_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "tteokbokki_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "tteokbokki_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "tteokbokki"
+  },
+  {
+   "dishes": [
+    {
+     "file": "banh_mi_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "banh_mi_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "banh_mi_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "banh_mi"
+  },
+  {
+   "dishes": [
+    {
+     "file": "kimbap_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "kimbap_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "kimbap_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "kimbap"
+  },
+  {
+   "dishes": [
+    {
+     "file": "pho_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "pho_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "pho_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "pho"
+  },
+  {
+   "dishes": [
+    {
+     "file": "naengmyeon_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "naengmyeon_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "naengmyeon_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "naengmyeon"
+  },
+  {
+   "dishes": [
+    {
+     "file": "ca_phe_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "ca_phe_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "ca_phe_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "ca_phe"
+  },
+  {
+   "dishes": [
+    {
+     "file": "bingsu_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "bingsu_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "bingsu_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "bingsu"
+  },
+  {
+   "dishes": [
+    {
+     "file": "bun_cha_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "bun_cha_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "bun_cha_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "bun_cha"
+  },
+  {
+   "dishes": [
+    {
+     "file": "samgyeopsal_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "samgyeopsal_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "samgyeopsal_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "samgyeopsal"
+  },
+  {
+   "dishes": [
+    {
+     "file": "banh_xeo_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "banh_xeo_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "banh_xeo_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "banh_xeo"
+  },
+  {
+   "dishes": [
+    {
+     "file": "pajeon_1.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "pajeon_2.png",
+     "ppu": 240.0
+    },
+    {
+     "file": "pajeon_3.png",
+     "ppu": 240.0
+    }
+   ],
+   "id": "pajeon"
+  }
+ ]
+}

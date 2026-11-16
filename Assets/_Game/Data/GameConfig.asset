@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d627b168db9ef37499badb472039e779, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Tami.GameConfig
+  startingCoins: 1500
+  startingGems: 0
+  levels:
+  - upgradeCostMultiplier: 1
+    incomeMultiplier: 1
+    serviceTimeMultiplier: 1
+    vaultCapacitySales: 30
+  - upgradeCostMultiplier: 3
+    incomeMultiplier: 1.25
+    serviceTimeMultiplier: 0.85
+    vaultCapacitySales: 45
+  - upgradeCostMultiplier: 10
+    incomeMultiplier: 1.6
+    serviceTimeMultiplier: 0.7
+    vaultCapacitySales: 70
+  - upgradeCostMultiplier: 30
+    incomeMultiplier: 2
+    serviceTimeMultiplier: 0.55
+    vaultCapacitySales: 100
+  dishPriceMultipliers:
+  - 1
+  - 2.5
+  - 6
+  dishUnlockCostMultipliers:
+  - 0
+  - 4
+  - 15
+  revenueMaxLevel: 10
+  revenuePerLevel: 0.25
+  revenueCostMultiplier: 1.5
+  revenueCostGrowth: 1.9
+  decorPerSegment: 6
+  decorRefund: 0.5
+  barkerCostMultiplier: 3
+  barkerInviteChance: 0.4
+  barkerTalkInterval: 6
+  segments:
+  - name: "C\u1ED5ng l\xE0ng - C\u1ED5ng hanok"
+    unlockCost: 0
+    stageSegment: 0
+    dialogue: []
+  - name: "Ph\u1ED1 \u0111\xE8n l\u1ED3ng"
+    unlockCost: 8000
+    stageSegment: 0
+    dialogue:
+    - speaker: mayor
+      text: "Ph\u1ED1 \u0111\xE8n l\u1ED3ng \u0111\xE3 s\xE1ng! T\u1EEB gi\u1EDD
+        s\u1EBD c\xF3 c\u1EA3 \u0111o\xE0n du l\u1ECBch, food blogger v\xE0 kh\xE1ch
+        s\u1ED9p gh\xE9 th\u0103m."
+    - speaker: minji
+      text: "Ch\xE0o anh ch\u1ECB, em l\xE0 Min-ji, du h\u1ECDc sinh H\xE0n Qu\u1ED1c.
+        Em s\u1EBD gi\u1EDBi thi\u1EC7u c\xE1c m\xF3n H\xE0n \u1EDF \u0111\xE2y nh\xE9!"
+  - name: "Ph\u1ED1 c\xE0 ph\xEA v\xE0 tr\xE1ng mi\u1EC7ng"
+    unlockCost: 1200000
+    stageSegment: 0
+    dialogue:
+    - speaker: mayor
+      text: "Ph\u1ED1 c\xE0 ph\xEA v\xE0 tr\xE1ng mi\u1EC7ng m\u1EDF c\u1EEDa r\u1ED3i.
+        \u0102n no th\xEC ph\u1EA3i c\xF3 c\xE0 ph\xEA, \u0111\xE1 b\xE0o ch\u1EE9!"
+  - name: "Ph\u1ED1 \u0111\u1ED3 n\u01B0\u1EDBng"
+    unlockCost: 20000000
+    stageSegment: 0
+    dialogue:
+    - speaker: minji
+      text: "Ph\u1ED1 \u0111\u1ED3 n\u01B0\u1EDBng! Th\u1ECBt n\u01B0\u1EDBng H\xE0n,
+        b\xE1nh x\xE8o Vi\u1EC7t, b\xE1nh h\xE0nh ng\xE0y m\u01B0a, th\u01A1m l\u1EEBng
+        c\u1EA3 ph\u1ED1."
+  - name: "Qu\u1EA3ng tr\u01B0\u1EDDng s\xE2n kh\u1EA5u"
+    unlockCost: 6000000000
+    stageSegment: 1
+    dialogue:
+    - speaker: mayor
+      text: "Ph\u1ED1 \u0111\xE3 \u0111\u1EE7 5 \u0111o\u1EA1n! Ch\xFAng ta t\u1ED5
+        ch\u1EE9c l\u1EC5 khai tr\u01B0\u01A1ng to\xE0n ph\u1ED1 n\xE0o!"
+    - speaker: ongba
+      text: "Ch\xE0o ch\xE1u, ta l\xE0 \xD4ng Ba. Qu\u1EA3ng tr\u01B0\u1EDDng n\xE0y
+        c\u1EA7n nh\u1EEFng ti\u1EBFt m\u1EE5c bi\u1EC3u di\u1EC5n."
+    - speaker: ongba
+      text: "H\xE3y m\u1EDDi ngh\u1EC7 s\u0129 r\u1ED3i b\u1EA5m v\xE0o s\xE2n kh\u1EA5u
+        \u0111\u1EC3 bi\u1EC3u di\u1EC5n, kh\xE1ch s\u1EBD k\xE9o \u0111\u1EBFn \u0111\xF4ng
+        g\u1EA5p \u0111\xF4i!"
+  playableSegments: 4
+  plazaZoneCosts:
+  - 5000
+  - 50000
+  - 2000000
+  - 25000000
+  folkGameCosts:
+  - 10000
+  - 60000
+  - 300000
+  stalls:
+  - {fileID: 11400000, guid: 46d17a30061fbbe4695b876542ecdffb, type: 2}
+  - {fileID: 11400000, guid: 723ab1015412ed84d85d14c876202386, type: 2}
+  - {fileID: 11400000, guid: 0fc7830ee39b66f4b80aa7ad29d8a35d, type: 2}
+  - {fileID: 11400000, guid: 369f3633eb9dd7c4b8671ae756ebb26d, type: 2}
+  - {fileID: 11400000, guid: f3120f199ee9d4d4ba36a2c34d3a39e9, type: 2}
+  - {fileID: 11400000, guid: 641b0de6653b11343813df46294d450c, type: 2}
+  - {fileID: 11400000, guid: 197c741f26cc76e40be03f830ed5147e, type: 2}
+  - {fileID: 11400000, guid: 2c420c35a8e955a49ac6f4afda2855e8, type: 2}
+  - {fileID: 11400000, guid: 8a83168fa2818db488dd18f5e9e58b39, type: 2}
+  - {fileID: 11400000, guid: 6c547a12148806445b09c3c510862f28, type: 2}
+  - {fileID: 11400000, guid: 78a50094888f7744db3911abcd3ec4cb, type: 2}
+  - {fileID: 11400000, guid: ef0c4eb5e4a46464cbcc45b7de28e167, type: 2}
+  npcTypes:
+  - {fileID: 11400000, guid: c980c185926f615408bbefa3ad21c18c, type: 2}
+  - {fileID: 11400000, guid: c5ff913ad224b1e43aaf9fc8a80f358b, type: 2}
+  - {fileID: 11400000, guid: 753064b76d20b8446a19bf4ed4c280b6, type: 2}
+  - {fileID: 11400000, guid: 3bd4a6e66db463347bf2d711ab4a8e23, type: 2}
+  - {fileID: 11400000, guid: 6a254ddeb1a317f4984a11d24e0cb913, type: 2}
+  decorations:
+  - {fileID: 11400000, guid: 7d1087937d134a61ac1baa6a72c64b39, type: 2}
+  - {fileID: 11400000, guid: 28764dcce7483ca4ab2f2489af58ea9c, type: 2}
+  - {fileID: 11400000, guid: ce1548f47d7989e4b84e3a0397d50e6a, type: 2}
+  - {fileID: 11400000, guid: cba75d358fd84d728f49b848494acf49, type: 2}
+  - {fileID: 11400000, guid: e7034fe5fb5f4b5a9eb9d2e1d127cf24, type: 2}
+  - {fileID: 11400000, guid: a96d37256a7d4c81996ae72ad64ab2b5, type: 2}
+  - {fileID: 11400000, guid: 077e687659f341fca96bd35416fc28b2, type: 2}
+  - {fileID: 11400000, guid: 34fd3e0b162f4c27912ebf67028ee061, type: 2}
+  - {fileID: 11400000, guid: 8bafe2c7c698fba468729b41f29c4fdd, type: 2}
+  - {fileID: 11400000, guid: a5ccbc774e124971b8380389aa8657f6, type: 2}
+  - {fileID: 11400000, guid: 4a7ee70fabea4173bfb0b0d3fa1c0da2, type: 2}
+  - {fileID: 11400000, guid: 9b0f9a5e958ac26448efa3ba3b927c8f, type: 2}
+  - {fileID: 11400000, guid: a805b30aab06491794b4597943aea402, type: 2}
+  - {fileID: 11400000, guid: 738ceec4220b48bdbe5d0173bb34eae4, type: 2}
+  - {fileID: 11400000, guid: 0902adf7bc674859ba9c4a67413c9222, type: 2}
+  - {fileID: 11400000, guid: 764ba4b316b94c4385ecc9878964c8be, type: 2}
+  - {fileID: 11400000, guid: 06856772eb97456da4c5c4820b958961, type: 2}
+  - {fileID: 11400000, guid: 162b7d8d46d842a285072b8bb2c0bada, type: 2}
+  - {fileID: 11400000, guid: cdcf6ef8ae8d4837b0198ac8aa5f9bb1, type: 2}
+  - {fileID: 11400000, guid: e439e734bbb543398c86774465cef8c3, type: 2}
+  - {fileID: 11400000, guid: f13349a17c4b4f12a79235ba7dd406ce, type: 2}
+  - {fileID: 11400000, guid: ed185dfcb3f648e981d1d9fd54a0baaf, type: 2}
+  - {fileID: 11400000, guid: 644570bf9e7d47f4aee127a66e5b3b45, type: 2}
+  - {fileID: 11400000, guid: b34a4fa41b4242d8a1db6ebdf230dc9a, type: 2}
+  - {fileID: 11400000, guid: af1440112b994d33b823e589c65ecdca, type: 2}
+  - {fileID: 11400000, guid: 74b67032a45245d28bb3ddfbfd6c7f3c, type: 2}
+  - {fileID: 11400000, guid: 76a755a41b4640febe361ea0d42cd276, type: 2}
+  - {fileID: 11400000, guid: 95787c8c10c14e8f9eba421497e72c0d, type: 2}
+  - {fileID: 11400000, guid: 86aa4a4b8679400d93859a9d90069aa8, type: 2}
+  - {fileID: 11400000, guid: 96e9170ca6d4485987e1fa97a4a3f23d, type: 2}
+  - {fileID: 11400000, guid: 6d3bb56d71b84db7a382d2516c245ddb, type: 2}
+  - {fileID: 11400000, guid: 795317de28154ba997a3e922c5e35ea4, type: 2}
+  - {fileID: 11400000, guid: 68e677ab7e266754ca4f868901543e16, type: 2}
+  - {fileID: 11400000, guid: dd62e118fabc4703a13a028aec1452ca, type: 2}
+  - {fileID: 11400000, guid: fa54c56abb7348f39570c5d74767209b, type: 2}
+  - {fileID: 11400000, guid: daa3a4982a57467a9f4d92b9eaf2d861, type: 2}
+  - {fileID: 11400000, guid: d8042f10997040ac881557a2d6a9ae5b, type: 2}
+  - {fileID: 11400000, guid: 0f27a3c4b9f745ffbe9797b7682e3b70, type: 2}
+  - {fileID: 11400000, guid: c4319749e6554811b8e3e1ac2cbff293, type: 2}
+  - {fileID: 11400000, guid: 685ba73e3ebc4989b0d8d5e43e3888ea, type: 2}
+  - {fileID: 11400000, guid: 60cae4cf48f04b83a83ee9d785434777, type: 2}
+  - {fileID: 11400000, guid: 762aa65881f2457dbd385ed83372ca82, type: 2}
+  - {fileID: 11400000, guid: d33287b568c144e29634b91269dd0b84, type: 2}
+  - {fileID: 11400000, guid: 0e252b41cbd44625b3be23e5afb9863a, type: 2}
+  - {fileID: 11400000, guid: 5a670a0e9dc34768876aa9de0ce9b879, type: 2}
+  - {fileID: 11400000, guid: 974d7bb812c64f8183f0ac8a2e89a56b, type: 2}
+  - {fileID: 11400000, guid: ee1a163344de4ee4a130232e54bae0ad, type: 2}
+  - {fileID: 11400000, guid: 2dd3857f5d3f4fae9642d1b7413ac906, type: 2}
+  - {fileID: 11400000, guid: 724e0a862d384220b20bf814e946b75f, type: 2}
+  - {fileID: 11400000, guid: e3252415376542e0a721c792dd49cb1a, type: 2}
+  - {fileID: 11400000, guid: 41ebc7c0856646d6861c7ab10e860a45, type: 2}
+  - {fileID: 11400000, guid: 5d6f72c0b29b4a798b92b1cf5be3d725, type: 2}
+  - {fileID: 11400000, guid: 177b969ded9744b98129625149dbc70f, type: 2}
+  performers:
+  - {fileID: 11400000, guid: ee776c8f812ff7942ba3ce134480b232, type: 2}
+  - {fileID: 11400000, guid: 9020874fb8b1b8c4aa555c7576a26cc4, type: 2}
+  - {fileID: 11400000, guid: 18d4fe0e19076a14f9decb678c927c62, type: 2}
+  - {fileID: 11400000, guid: 3cc6abc65c76c7241a4909752d94a875, type: 2}
+  - {fileID: 11400000, guid: 484f916f31a955c4b97febdc94896a65, type: 2}
+  - {fileID: 11400000, guid: 44d027415da136f47be571717f25bbfd, type: 2}
+  baseSpawnPerMinute: 26
+  baseMaxCustomers: 10
+  customersPerSegment: 6
+  queueCapacity: 3
+  npcWalkSpeed: 1.9
+  npcScale: 1.15
+  npcPatience: 12
+  attractionPerStall: 2
+  attractionPerLevel: 1
+  attractionPerStage: 15
+  bloggerBoost: 0.3
+  bloggerBoostDuration: 120
+  mysteryRewardSales: 20
+  mysteryRewardMin: 50
+  mysteryGemChance: 0.3
+  mysteryGems: 5
+  dineChance: 0.35
+  eatSeconds: 7
+  folkPlayChance: 0.3
+  folkPlaySeconds: 6
+  folkGameFeeMinutes: 0.1
+  folkGameFeeMin: 20
+  folkGameCooldown: 120
+  folkRewardMinutes: 3
+  folkRewardMin: 300
+  folkBoostGood: 1.5
+  folkBoostPerfect: 2
+  folkBoostSeconds: 90
+  managerCostMultiplier: 5
+  managerCollectInterval: 10
+  offlineRate: 0.5
+  offlineBaseHours: 4
+  offlineUpgradeHours:
+  - 8
+  - 12
+  offlineUpgradeGems: 64000000c8000000
+  performSpawnMultiplier: 2
+  performMaxCustomersBonus: 0.5
+  performCooldown: 600
+  performResetGems: 10
+  introLines:
+  - speaker: 
+    text: "M\u1ED9t bu\u1ED5i chi\u1EC1u, \u1EDF \u0111\u1EA7u m\u1ED9t con ph\u1ED1
+      nh\u1ECF c\xF2n v\u1EAFng v\u1EBB..."
+  - speaker: player
+    text: "Xin ch\xE0o! M\xECnh sinh ra \u1EDF Vi\u1EC7t Nam, l\u1EDBn l\xEAn gi\u1EEFa
+      m\xF9i b\xE1nh ch\u01B0ng ng\xE0y T\u1EBFt v\xE0 ti\u1EBFng rao ngo\xE0i ch\u1EE3."
+  - speaker: player
+    text: "L\u1EDBn h\u01A1n m\u1ED9t ch\xFAt, m\xECnh \u0111eo ba l\xF4 chu du kh\u1EAFp
+      \u0111\u1EA5t n\u01B0\u1EDBc: t\u1EEB ph\u1ED1 c\u1ED5 H\xE0 N\u1ED9i, ph\u1ED1
+      H\u1ED9i An t\u1EDBi ch\u1EE3 n\u1ED5i mi\u1EC1n T\xE2y."
+  - speaker: player
+    text: "R\u1ED3i m\xECnh c\xF3 c\u01A1 h\u1ED9i sang H\xE0n Qu\u1ED1c l\xE0m vi\u1EC7c.
+      \u1EDE \u0111\xF3 m\xECnh m\xEA tteokbokki, kimbap v\xE0 nh\u1EEFng khu ch\u1EE3
+      \u0111\xEAm r\u1ED9n r\xE0ng."
+  - speaker: player
+    text: "Gi\u1EDD m\xECnh tr\u1EDF v\u1EC1 Vi\u1EC7t Nam, mang theo t\xECnh y\xEAu
+      v\u1EDBi v\u0103n ho\xE1 c\u1EE7a c\u1EA3 hai \u0111\u1EA5t n\u01B0\u1EDBc."
+  - speaker: player
+    text: "M\xECnh mu\u1ED1n m\u1EDF m\u1ED9t h\u1ED9i ch\u1EE3, n\u01A1i v\u0103n
+      ho\xE1 Vi\u1EC7t Nam v\xE0 H\xE0n Qu\u1ED1c g\u1EB7p nhau!"
+  - speaker: player
+    text: "Ch\xE0o b\xE1c Tr\u01B0\u1EDFng ph\u1ED1! Ch\xE1u xin ph\xE9p \u0111\u01B0\u1EE3c
+      m\u1EDF m\u1ED9t h\u1ED9i ch\u1EE3 v\u0103n ho\xE1 Vi\u1EC7t - H\xE0n \u1EDF
+      con ph\u1ED1 n\xE0y \u1EA1."
+  - speaker: mayor
+    text: "H\u1ED9i ch\u1EE3 Vi\u1EC7t - H\xE0n \xE0? Nghe hay \u0111\u1EA5y! Con
+      ph\u1ED1 n\xE0y v\u1EAFng v\u1EBB l\xE2u r\u1ED3i, c\xF3 h\u1ED9i ch\u1EE3
+      th\xEC vui bi\u1EBFt m\u1EA5y."
+  - speaker: mayor
+    text: "\u0110\u01B0\u1EE3c, b\xE1c \u0111\u1ED3ng \xFD! \u0110\xE2y l\xE0 gi\u1EA5y
+      ph\xE9p m\u1EDF h\u1ED9i ch\u1EE3 c\u1EE7a ch\xE1u."
+  - speaker: mayor
+    text: "Ch\xE1u c\xF3 500 xu, \u0111\u1EE7 d\u1EF1ng qu\u1EA7y \u0111\u1EA7u ti\xEAn.
+      C\u1EE9 b\u1EAFt \u0111\u1EA7u t\u1EEB t\u1EEB r\u1ED3i ph\xE1t tri\u1EC3n
+      c\u1EA3 khu ph\u1ED1 nh\xE9!"
+  - speaker: player
+    text: "C\u1EA3m \u01A1n b\xE1c! H\u1ED9i ch\u1EE3 Vi\u1EC7t - H\xE0n, b\u1EAFt
+      \u0111\u1EA7u th\xF4i!"

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7930d78bef435b142915ee9b9d9c7d45, type: 3}
+  m_Name: 06_naengmyeon
+  m_EditorClassIdentifier: Assembly-CSharp::Tami.StallData
+  id: naengmyeon
+  displayName: Naengmyeon
+  origin: 1
+  segment: 2
+  unlockCost: 300000
+  baseIncome: 8000
+  baseServiceTime: 4
+  products:
+  - Mul naengmyeon
+  - Bibim naengmyeon
+  - "Naengmyeon th\u1ECBt b\xF2"
+  dishSprites:
+  - {fileID: 21300000, guid: 899211f870be13c40acdee893465cfe1, type: 3}
+  - {fileID: 21300000, guid: 9df2a131bec4205499d91beee639c9ee, type: 3}
+  - {fileID: 21300000, guid: ab1c51f714f9020498b9c745cbb745c3, type: 3}
+  levelSprites:
+  - {fileID: 21300000, guid: 5952b21f51353674f93e67f24341ab02, type: 3}
+  - {fileID: 21300000, guid: e24cea7335a4ea548a74dcbd2eac2081, type: 3}
+  - {fileID: 21300000, guid: c435bb021dd5158438e01e140faf53df, type: 3}
+  - {fileID: 21300000, guid: 5dd88da102d07234fac0730b62c6b6e2, type: 3}
+  counterTopY: 0.9417285
+  dishSpacing: 0.95
+  dishScale: 0.9
+  staffRig: npc_banhang1
+  introSpeaker: minji
+  introLine: "Naengmyeon l\xE0 m\xEC l\u1EA1nh, ng\u01B0\u1EDDi H\xE0n r\u1EA5t th\xEDch
+    \u0103n v\xE0o m\xF9a h\xE8."
+  customerLines:
+  - "M\xEC l\u1EA1nh m\xE1t l\u1EA1nh!"
+  - "\u0102n m\xF9a h\xE8 l\xE0 nh\u1EA5t."
+  barkerLines: []

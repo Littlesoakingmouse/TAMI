@@ -1,0 +1,269 @@
+{
+ "items": [
+  {
+   "file": "decor_den_long.png",
+   "ppu": 128.0,
+   "id": "den_long"
+  },
+  {
+   "file": "decor_non_la.png",
+   "ppu": 128.0,
+   "id": "non_la"
+  },
+  {
+   "file": "decor_hu_sanh.png",
+   "ppu": 128.0,
+   "id": "hu_sanh"
+  },
+  {
+   "file": "decor_cay_quat.png",
+   "ppu": 128.0,
+   "id": "cay_quat"
+  },
+  {
+   "file": "decor_quang_ganh.png",
+   "ppu": 128.0,
+   "id": "quang_ganh"
+  },
+  {
+   "file": "decor_chum_nuoc.png",
+   "ppu": 128.0,
+   "id": "chum_nuoc"
+  },
+  {
+   "file": "decor_coi_da.png",
+   "ppu": 128.0,
+   "id": "coi_da"
+  },
+  {
+   "file": "decor_dun_rom.png",
+   "ppu": 128.0,
+   "id": "dun_rom"
+  },
+  {
+   "file": "decor_mam_ngu_qua.png",
+   "ppu": 128.0,
+   "id": "mam_ngu_qua"
+  },
+  {
+   "file": "decor_banh_chung.png",
+   "ppu": 128.0,
+   "id": "banh_chung"
+  },
+  {
+   "file": "decor_den_ong_sao.png",
+   "ppu": 128.0,
+   "id": "den_ong_sao"
+  },
+  {
+   "file": "decor_cay_dao.png",
+   "ppu": 128.0,
+   "id": "cay_dao"
+  },
+  {
+   "file": "decor_thap_co.png",
+   "ppu": 128.0,
+   "id": "thap_co"
+  },
+  {
+   "file": "decor_thuy_dinh.png",
+   "ppu": 128.0,
+   "id": "thuy_dinh"
+  },
+  {
+   "file": "decor_trong_dong.png",
+   "ppu": 128.0,
+   "id": "trong_dong"
+  },
+  {
+   "file": "decor_nghe_da.png",
+   "ppu": 128.0,
+   "id": "nghe_da"
+  },
+  {
+   "file": "decor_xe_banh_mi.png",
+   "ppu": 128.0,
+   "id": "xe_banh_mi"
+  },
+  {
+   "file": "decor_sap_hoa_qua.png",
+   "ppu": 128.0,
+   "id": "sap_hoa_qua"
+  },
+  {
+   "file": "decor_ganh_hang_rong.png",
+   "ppu": 128.0,
+   "id": "ganh_hang_rong"
+  },
+  {
+   "file": "decor_xich_lo.png",
+   "ppu": 128.0,
+   "id": "xich_lo"
+  },
+  {
+   "file": "decor_o_che_nang.png",
+   "ppu": 128.0,
+   "id": "o_che_nang"
+  },
+  {
+   "file": "decor_ban_ghe_nhua.png",
+   "ppu": 128.0,
+   "id": "ban_ghe_nhua"
+  },
+  {
+   "file": "decor_xe_tra_da.png",
+   "ppu": 128.0,
+   "id": "xe_tra_da"
+  },
+  {
+   "file": "decor_bo_tra_da.png",
+   "ppu": 128.0,
+   "id": "bo_tra_da"
+  },
+  {
+   "file": "decor_den_long_xanh_do.png",
+   "ppu": 128.0,
+   "id": "den_long_xanh_do"
+  },
+  {
+   "file": "decor_onggi.png",
+   "ppu": 128.0,
+   "id": "onggi"
+  },
+  {
+   "file": "decor_quat_buchae.png",
+   "ppu": 128.0,
+   "id": "quat_buchae"
+  },
+  {
+   "file": "decor_binh_men_ngoc.png",
+   "ppu": 128.0,
+   "id": "binh_men_ngoc"
+  },
+  {
+   "file": "decor_cong_hanok.png",
+   "ppu": 128.0,
+   "id": "cong_hanok"
+  },
+  {
+   "file": "decor_jangseung.png",
+   "ppu": 128.0,
+   "id": "jangseung"
+  },
+  {
+   "file": "decor_thap_da.png",
+   "ppu": 128.0,
+   "id": "thap_da"
+  },
+  {
+   "file": "decor_jeongja.png",
+   "ppu": 128.0,
+   "id": "jeongja"
+  },
+  {
+   "file": "decor_pojangmacha.png",
+   "ppu": 128.0,
+   "id": "pojangmacha"
+  },
+  {
+   "file": "decor_may_ban_hang.png",
+   "ppu": 128.0,
+   "id": "may_ban_hang"
+  },
+  {
+   "file": "decor_jangdokdae.png",
+   "ppu": 128.0,
+   "id": "jangdokdae"
+  },
+  {
+   "file": "decor_ban_tra_thap.png",
+   "ppu": 128.0,
+   "id": "ban_tra_thap"
+  },
+  {
+   "file": "decor_cay_anh_dao.png",
+   "ppu": 128.0,
+   "id": "cay_anh_dao"
+  },
+  {
+   "file": "decor_cay_phong.png",
+   "ppu": 128.0,
+   "id": "cay_phong"
+  },
+  {
+   "file": "decor_cay_thong.png",
+   "ppu": 128.0,
+   "id": "cay_thong"
+  },
+  {
+   "file": "decor_nguoi_tuyet.png",
+   "ppu": 128.0,
+   "id": "nguoi_tuyet"
+  },
+  {
+   "file": "decor_tram_xe_buyt.png",
+   "ppu": 128.0,
+   "id": "tram_xe_buyt"
+  },
+  {
+   "file": "decor_cua_hang_tien_loi.png",
+   "ppu": 128.0,
+   "id": "cua_hang_tien_loi"
+  },
+  {
+   "file": "decor_bang_hieu.png",
+   "ppu": 128.0,
+   "id": "bang_hieu"
+  },
+  {
+   "file": "decor_xe_bungeoppang.png",
+   "ppu": 128.0,
+   "id": "xe_bungeoppang"
+  },
+  {
+   "file": "decor_neolttwigi.png",
+   "ppu": 128.0,
+   "id": "neolttwigi"
+  },
+  {
+   "file": "decor_chuoi_den_long.png",
+   "ppu": 128.0,
+   "id": "chuoi_den_long"
+  },
+  {
+   "file": "decor_trong_buk.png",
+   "ppu": 128.0,
+   "id": "trong_buk"
+  },
+  {
+   "file": "decor_ban_tra.png",
+   "ppu": 128.0,
+   "id": "ban_tra"
+  },
+  {
+   "file": "decor_cay_bang.png",
+   "ppu": 128.0,
+   "id": "cay_bang"
+  },
+  {
+   "file": "decor_cay_sau.png",
+   "ppu": 128.0,
+   "id": "cay_sau"
+  },
+  {
+   "file": "decor_cay_xa_cu.png",
+   "ppu": 128.0,
+   "id": "cay_xa_cu"
+  },
+  {
+   "file": "decor_cay_sao.png",
+   "ppu": 128.0,
+   "id": "cay_sao"
+  },
+  {
+   "file": "decor_cay_dau.png",
+   "ppu": 128.0,
+   "id": "cay_dau"
+  }
+ ]
+}
